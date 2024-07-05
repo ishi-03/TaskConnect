@@ -25,7 +25,7 @@ const Register = () => {
             className="w-[600px] h-[50px] border-[#FFF] border-[1px] rounded-[5px] outline-none placeholder:pl-4"
             type="text"
             value={state.userName}
-            placeholder="Enter your name"
+            placeholder="Enter your username"
             onChange={(e) => collectRegisterData(e, 'USER_NAME')}
           />
           <h1 className="text-left ml-[50px] my-6 text-[#FFF] text-[20px] font-bold">
@@ -33,7 +33,7 @@ const Register = () => {
           </h1>
           <input
             className="w-[600px] h-[50px] border-[#FFF] border-[1px] rounded-[5px] outline-none placeholder:pl-4"
-            type="text"
+            type="email"
             value={state.email}
             placeholder="Enter your email"
             onChange={(e) => collectRegisterData(e, 'EMAIL')}
@@ -43,7 +43,7 @@ const Register = () => {
           </h1>
           <input
             className="w-[600px] h-[50px] border-[#FFF] border-[1px] rounded-[5px] outline-none placeholder:pl-4"
-            type="text"
+            type="password"
             value={state.password}
             placeholder="Enter your password"
             onChange={(e) => collectRegisterData(e, 'PASSWORD')}

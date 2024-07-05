@@ -20,7 +20,7 @@ const Login = () => {
           <input
             className="w-[600px] h-[50px] border-[#FFF] border-[1px] rounded-[5px] outline-none placeholder:pl-4"
             type="text"
-            placeholder="Enter your email"
+            placeholder="Enter your username"
             onChange={(e) => collectRegisterData(e, "USER_NAME")}
           />
           <h1 className="text-left ml-[50px] my-6 text-[#FFF] text-[20px] font-bold">
@@ -28,7 +28,7 @@ const Login = () => {
           </h1>
           <input
             className="w-[600px] h-[50px] border-[#FFF] border-[1px] rounded-[5px] outline-none placeholder:pl-4"
-            type="text"
+            type="password"
             placeholder="Enter your password"
             onChange={(e) => collectRegisterData(e, "PASSWORD")}
           />
@@ -39,13 +39,13 @@ const Login = () => {
             Login
           </button>
           <p className=" mt-6 text-[20px]">
-            Do you have an account ?
+            Do not have an account ?
             <span
               className="text-[#BE6464] cursor-pointer text-[20px] "
               onClick={redirect}
             >
               {" "}
-              sign in
+              sign up
             </span>
           </p>
         </div>
