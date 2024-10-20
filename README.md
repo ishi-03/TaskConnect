@@ -56,11 +56,17 @@ The application handles user registration, login, error handling, and validation
 
 ## Features:
 -**User Authentication**: Users can register and log in. Private routes prevent unauthorized access.
+
 -**Error Handling**: All user inputs are validated with error handling (e.g., incorrect login or missing fields).
+
 -**Task Management**: Users can create, update, delete, and mark tasks as complete.
+
 -**User Profile**: Displays user details, including login expiration.
+
 -**Creation Time**: Tasks display the time they were created.
+
 -**Local Storage**: User data and tasks are stored in the browser’s local storage.
+
 -**Optimization**: Components use **lazy loading** to improve performance.
 
 ---
