@@ -38,10 +38,20 @@ The application handles user registration, login, error handling, and validation
 ## Setup and Installation
 
 ### Prerequisites
-- Ensure you have **React** and **Redux** installed on your system.
+- Ensure you have **Node.js** and **npm** installed on your system.
 
 ### Running Locally
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/task-connect.git
    cd task-connect
+
+## Install the dependencies:
+
+```bash
+npm install
+
+## Run the application in Vite:
+
+```bash
+npm run dev
