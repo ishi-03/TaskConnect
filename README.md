@@ -38,7 +38,7 @@ The application handles user registration, login, error handling, and validation
 ## Setup and Installation
 
 ### Prerequisites
-- Ensure you have **Node.js** and **npm** installed on your system.
+- Ensure you have **React** and **Redux** installed on your system.
 
 ### Running Locally
 1. Clone the repository:
