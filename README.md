@@ -51,6 +51,8 @@ The application handles user registration, login, error handling, and validation
 ```bash
 npm install
 
+---
+
 ## Run the application in Vite:
 
 ```bash
